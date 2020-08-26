@@ -1,0 +1,915 @@
+{
+  "{\"filename\":\"/app/index.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          },
+          {
+            "source": "express-graphql",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "expressGraphQl"
+              }
+            ]
+          },
+          {
+            "source": "./schema",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Schema"
+              }
+            ]
+          },
+          {
+            "source": "./resolver",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "root"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/index.js",
+      "filenameRelative": "/app/index.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "index.js",
+      "sourceFileName": "index.js",
+      "sourceRoot": "/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "index"
+    },
+    "ignored": false,
+    "code": "\"use strict\";\n\nvar _express = require(\"express\");\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _expressGraphql = require(\"express-graphql\");\n\nvar _expressGraphql2 = _interopRequireDefault(_expressGraphql);\n\nvar _schema = require(\"./schema\");\n\nvar _schema2 = _interopRequireDefault(_schema);\n\nvar _resolver = require(\"./resolver\");\n\nvar _resolver2 = _interopRequireDefault(_resolver);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// Initialize Express server\n// ANCHOR initialize the server and graphql, set routes and port for the server\nvar app = (0, _express2.default)();\n\n// Set Routes\napp.get(\"/\", function (req, res) {\n\treturn res.json({\n\t\tmsg: \"Welcome to my GQL World\"\n\t});\n});\n\n// Use express to initalize graphqql\napp.use(\"/graphql\", (0, _expressGraphql2.default)({\n\tschema: _schema2.default,\n\trootValue: _resolver2.default,\n\tgraphiql: true\n}));\n\n// Listen for the port\napp.listen(3000, function () {});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImFwcCIsImdldCIsInJlcSIsInJlcyIsImpzb24iLCJtc2ciLCJ1c2UiLCJzY2hlbWEiLCJTY2hlbWEiLCJyb290VmFsdWUiLCJyb290IiwiZ3JhcGhpcWwiLCJsaXN0ZW4iXSwibWFwcGluZ3MiOiI7O0FBQ0E7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7OztBQUVBO0FBTkE7QUFPQSxJQUFNQSxNQUFNLHdCQUFaOztBQUVBO0FBQ0FBLElBQUlDLEdBQUosQ0FBUSxHQUFSLEVBQWEsVUFBQ0MsR0FBRCxFQUFNQyxHQUFOLEVBQWM7QUFDMUIsUUFBT0EsSUFBSUMsSUFBSixDQUFTO0FBQ2ZDLE9BQUs7QUFEVSxFQUFULENBQVA7QUFHQSxDQUpEOztBQU1BO0FBQ0FMLElBQUlNLEdBQUosQ0FDQyxVQURELEVBRUMsOEJBQWU7QUFDZEMsU0FBUUMsZ0JBRE07QUFFZEMsWUFBV0Msa0JBRkc7QUFHZEMsV0FBVTtBQUhJLENBQWYsQ0FGRDs7QUFTQTtBQUNBWCxJQUFJWSxNQUFKLENBQVcsSUFBWCxFQUFpQixZQUFNLENBQUUsQ0FBekIiLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiL2FwcCIsInNvdXJjZXNDb250ZW50IjpbIi8vIEFOQ0hPUiBpbml0aWFsaXplIHRoZSBzZXJ2ZXIgYW5kIGdyYXBocWwsIHNldCByb3V0ZXMgYW5kIHBvcnQgZm9yIHRoZSBzZXJ2ZXJcbmltcG9ydCBleHByZXNzIGZyb20gXCJleHByZXNzXCI7XG5pbXBvcnQgZXhwcmVzc0dyYXBoUWwgZnJvbSBcImV4cHJlc3MtZ3JhcGhxbFwiO1xuaW1wb3J0IFNjaGVtYSBmcm9tIFwiLi9zY2hlbWFcIjtcbmltcG9ydCByb290IGZyb20gXCIuL3Jlc29sdmVyXCI7XG5cbi8vIEluaXRpYWxpemUgRXhwcmVzcyBzZXJ2ZXJcbmNvbnN0IGFwcCA9IGV4cHJlc3MoKTtcblxuLy8gU2V0IFJvdXRlc1xuYXBwLmdldChcIi9cIiwgKHJlcSwgcmVzKSA9PiB7XG5cdHJldHVybiByZXMuanNvbih7XG5cdFx0bXNnOiBcIldlbGNvbWUgdG8gbXkgR1FMIFdvcmxkXCIsXG5cdH0pO1xufSk7XG5cbi8vIFVzZSBleHByZXNzIHRvIGluaXRhbGl6ZSBncmFwaHFxbFxuYXBwLnVzZShcblx0XCIvZ3JhcGhxbFwiLFxuXHRleHByZXNzR3JhcGhRbCh7XG5cdFx0c2NoZW1hOiBTY2hlbWEsXG5cdFx0cm9vdFZhbHVlOiByb290LFxuXHRcdGdyYXBoaXFsOiB0cnVlLFxuXHR9KVxuKTtcblxuLy8gTGlzdGVuIGZvciB0aGUgcG9ydFxuYXBwLmxpc3RlbigzMDAwLCAoKSA9PiB7fSk7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "index.js"
+      ],
+      "names": [
+        "app",
+        "get",
+        "req",
+        "res",
+        "json",
+        "msg",
+        "use",
+        "schema",
+        "Schema",
+        "rootValue",
+        "root",
+        "graphiql",
+        "listen"
+      ],
+      "mappings": ";;AACA;;;;AACA;;;;AACA;;;;AACA;;;;;;AAEA;AANA;AAOA,IAAMA,MAAM,wBAAZ;;AAEA;AACAA,IAAIC,GAAJ,CAAQ,GAAR,EAAa,UAACC,GAAD,EAAMC,GAAN,EAAc;AAC1B,QAAOA,IAAIC,IAAJ,CAAS;AACfC,OAAK;AADU,EAAT,CAAP;AAGA,CAJD;;AAMA;AACAL,IAAIM,GAAJ,CACC,UADD,EAEC,8BAAe;AACdC,SAAQC,gBADM;AAEdC,YAAWC,kBAFG;AAGdC,WAAU;AAHI,CAAf,CAFD;;AASA;AACAX,IAAIY,MAAJ,CAAW,IAAX,EAAiB,YAAM,CAAE,CAAzB",
+      "file": "index.js",
+      "sourceRoot": "/app",
+      "sourcesContent": [
+        "// ANCHOR initialize the server and graphql, set routes and port for the server\nimport express from \"express\";\nimport expressGraphQl from \"express-graphql\";\nimport Schema from \"./schema\";\nimport root from \"./resolver\";\n\n// Initialize Express server\nconst app = express();\n\n// Set Routes\napp.get(\"/\", (req, res) => {\n\treturn res.json({\n\t\tmsg: \"Welcome to my GQL World\",\n\t});\n});\n\n// Use express to initalize graphqql\napp.use(\n\t\"/graphql\",\n\texpressGraphQl({\n\t\tschema: Schema,\n\t\trootValue: root,\n\t\tgraphiql: true,\n\t})\n);\n\n// Listen for the port\napp.listen(3000, () => {});\n"
+      ]
+    },
+    "mtime": 1598425898000
+  },
+  "{\"filename\":\"/app/schema.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "graphql",
+            "imported": [
+              "buildSchema"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "buildSchema",
+                "local": "buildSchema"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/schema.js",
+      "filenameRelative": "/app/schema.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "schema.js",
+      "sourceFileName": "schema.js",
+      "sourceRoot": "/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "schema"
+    },
+    "ignored": false,
+    "code": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _graphql = require(\"graphql\");\n\nvar schema = (0, _graphql.buildSchema)(\"\\ntype Query {\\n\\thello: String\\n}\\n\"); // ANCHOR we define the schema which are used to structure the data flow b/n routes\nexports.default = schema;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjaGVtYS5qcyJdLCJuYW1lcyI6WyJzY2hlbWEiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUNBOztBQUVBLElBQU1BLFNBQVMsaUVBQWYsQyxDQUhBO2tCQVNlQSxNIiwiZmlsZSI6InNjaGVtYS5qcyIsInNvdXJjZVJvb3QiOiIvYXBwIiwic291cmNlc0NvbnRlbnQiOlsiLy8gQU5DSE9SIHdlIGRlZmluZSB0aGUgc2NoZW1hIHdoaWNoIGFyZSB1c2VkIHRvIHN0cnVjdHVyZSB0aGUgZGF0YSBmbG93IGIvbiByb3V0ZXNcbmltcG9ydCB7IGJ1aWxkU2NoZW1hIH0gZnJvbSBcImdyYXBocWxcIjtcblxuY29uc3Qgc2NoZW1hID0gYnVpbGRTY2hlbWEoYFxudHlwZSBRdWVyeSB7XG5cdGhlbGxvOiBTdHJpbmdcbn1cbmApO1xuXG5leHBvcnQgZGVmYXVsdCBzY2hlbWE7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "schema.js"
+      ],
+      "names": [
+        "schema"
+      ],
+      "mappings": ";;;;;;AACA;;AAEA,IAAMA,SAAS,iEAAf,C,CAHA;kBASeA,M",
+      "file": "schema.js",
+      "sourceRoot": "/app",
+      "sourcesContent": [
+        "// ANCHOR we define the schema which are used to structure the data flow b/n routes\nimport { buildSchema } from \"graphql\";\n\nconst schema = buildSchema(`\ntype Query {\n\thello: String\n}\n`);\n\nexport default schema;\n"
+      ]
+    },
+    "mtime": 1598425898000
+  },
+  "{\"filename\":\"/app/resolver.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/resolver.js",
+      "filenameRelative": "/app/resolver.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "resolver.js",
+      "sourceFileName": "resolver.js",
+      "sourceRoot": "/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "resolver"
+    },
+    "ignored": false,
+    "code": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n// ANCHOR we define the resolvers which are used as routes and controllers \nvar root = {\n    hello: function hello() {\n        return \"Hello Worlds\";\n    }\n    // NOTE Code goes here...\n};\n\nexports.default = root;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlc29sdmVyLmpzIl0sIm5hbWVzIjpbInJvb3QiLCJoZWxsbyJdLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBQTtBQUNBLElBQU1BLE9BQU87QUFDVEMsV0FBTztBQUFBLGVBQU0sY0FBTjtBQUFBO0FBQ1A7QUFGUyxDQUFiOztrQkFLZUQsSSIsImZpbGUiOiJyZXNvbHZlci5qcyIsInNvdXJjZVJvb3QiOiIvYXBwIiwic291cmNlc0NvbnRlbnQiOlsiLy8gQU5DSE9SIHdlIGRlZmluZSB0aGUgcmVzb2x2ZXJzIHdoaWNoIGFyZSB1c2VkIGFzIHJvdXRlcyBhbmQgY29udHJvbGxlcnMgXG5jb25zdCByb290ID0ge1xuICAgIGhlbGxvOiAoKSA9PiBcIkhlbGxvIFdvcmxkc1wiLFxuICAgIC8vIE5PVEUgQ29kZSBnb2VzIGhlcmUuLi5cbn07XG5cbmV4cG9ydCBkZWZhdWx0IHJvb3Q7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "resolver.js"
+      ],
+      "names": [
+        "root",
+        "hello"
+      ],
+      "mappings": ";;;;;AAAA;AACA,IAAMA,OAAO;AACTC,WAAO;AAAA,eAAM,cAAN;AAAA;AACP;AAFS,CAAb;;kBAKeD,I",
+      "file": "resolver.js",
+      "sourceRoot": "/app",
+      "sourcesContent": [
+        "// ANCHOR we define the resolvers which are used as routes and controllers \nconst root = {\n    hello: () => \"Hello Worlds\",\n    // NOTE Code goes here...\n};\n\nexport default root;\n"
+      ]
+    },
+    "mtime": 1598425898000
+  }
+}
