@@ -1,3 +1,5 @@
+'use strict';
+
 // ANCHOR initialize the server and graphql, set routes and port for the server
 const express = require('express');
 const expressGraphQl = require('express-graphql');
@@ -8,20 +10,20 @@ const {root} = require('./resolver');
 const app = express();
 
 // Set Routes
-app.get("/", (req, res) => {
-	return res.json({
-		msg: "Welcome to my GQL World",
-	});
+app.get('/', (req, res) => {
+  return res.json({
+    msg: 'Welcome to my GQL World',
+  });
 });
 
 // Use express to initalize graphqql
 app.use(
-	"/graphql",
-	expressGraphQl({
-		schema: Schema,
-		rootValue: root,
-		graphiql: true,
-	})
+  '/graphql',
+  expressGraphQl({
+    schema: Schema,
+    rootValue: root,
+    graphiql: true,
+  })
 );
 
 // Listen for the port

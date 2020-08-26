@@ -4,4 +4,4 @@ const root = {
     // NOTE Code goes here...
 };
 
-export default root;
+module.exports =  root;
