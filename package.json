@@ -28,6 +28,7 @@
     "express-graphql": "^0.11.0",
     "graphql": "^15.3.0",
     "nodemon": "^2.0.4",
-    "mongoose": "^5.9.29"
+    "mongoose": "^5.9.29",
+    "eslintrc": "^1.0.6"
   }
 }
