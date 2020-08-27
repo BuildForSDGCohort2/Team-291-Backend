@@ -47,7 +47,6 @@ app.use(
     rootValue: root,
     graphiql: true,
   })
->>>>>>> 267b8c6ace412c6f7c43e75a48bddcf170676508
 );
 
 // Listen for the port
