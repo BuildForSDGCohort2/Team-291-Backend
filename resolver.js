@@ -1,9 +1,7 @@
-'use strict';
-
-// ANCHOR we define the resolvers which are used as routes and controllers
+// ANCHOR we define the resolvers which are used as routes and controllers 
 const root = {
-  hello: () => 'Hello Worlds',
-  // NOTE Code goes here...
+    hello: () => "Hello Worlds",
+    // NOTE Code goes here...
 };
 
-module.exports = root;
+export default root;
