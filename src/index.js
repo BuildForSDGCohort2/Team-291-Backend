@@ -1,11 +1,11 @@
 'use strict'
 
 const express = require('express')
-const expressGraphQL = require('express-graphql')
+const {expressGraphQL} = require('express-graphql')
 
 
 const app = express()
 
-app.use
+app.use('/graphql', graphqlHTTP({}))
 
-app.listen(3000, () => console.log('Server Running'))
+app.listen(5000, () => console.log('Server Running'))
