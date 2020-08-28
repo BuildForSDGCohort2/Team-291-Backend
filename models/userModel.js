@@ -1,9 +1,23 @@
 'use strict'
 
-import mongoose from '/mongoose'
-const Schema = mongoose.Schema
+import mongoose from '/mongoose';
+const Schema = mongoose.Schema;
 
-const User = new Schema({
-  username: String,
-  email: String
+const SignUpSchema = new Schema({
+  FirstName: ({
+    type: String,
+    required: true
+  }),
+  LastName: ({
+    
+  })
+  username: ({
+    type: String,
+    required: true
+  }),
+  email: ({
+    type: String,
+    required: true
+  }),
+  
 })
