@@ -2,9 +2,9 @@
 
 // ANCHOR initialize the server and graphql, set routes and port for the server
 const express = require('express');
-const {expressGraphQl} = require('express-graphql');
-const {Schema} = require('./schema');
-const {root} = require('./resolver');
+const expressGraphQl = require('express-graphql');
+const Schema = require('./schema');
+const root = require('./resolver');
 
 // Initialize Express server
 const app = express()
