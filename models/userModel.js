@@ -1,22 +1,23 @@
-'use strict'
+'use strict';
 
-import mongoose from '/mongoose';
+import Joi from 'joi';
+import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
 const SignUpSchema = new Schema({
-  FirstName: ({
+  firstName: ({
     type: String,
     required: true
   }),
-  LastName: ({
+  lastName: ({
     type: String,
     required: true
   }),
-  VehicleModelNumber: ({
+  vehicleModelNumber: ({
     type: String,
     required: true
   }),
-  LicensePlateNumber: ({
+  licenseNumber: ({
     type: String,
     required: true
   }),
