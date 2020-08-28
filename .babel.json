@@ -1110,7 +1110,7 @@
       "basename": "index"
     },
     "ignored": false,
-    "code": "'use strict';\n\nvar express = require('express');\nvar expressGraphQL = require('express-graphql');\n\nvar app = express();\n\napp.use('/graphql', expressGraphQL({}));\n\napp.listen(3000, function () {\n  return console.log('Server Running');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImV4cHJlc3MiLCJyZXF1aXJlIiwiZXhwcmVzc0dyYXBoUUwiLCJhcHAiLCJ1c2UiLCJsaXN0ZW4iLCJjb25zb2xlIiwibG9nIl0sIm1hcHBpbmdzIjoiQUFBQTs7QUFFQSxJQUFNQSxVQUFVQyxRQUFRLFNBQVIsQ0FBaEI7QUFDQSxJQUFNQyxpQkFBaUJELFFBQVEsaUJBQVIsQ0FBdkI7O0FBR0EsSUFBTUUsTUFBTUgsU0FBWjs7QUFFQUcsSUFBSUMsR0FBSixDQUFRLFVBQVIsRUFBb0JGLGVBQWUsRUFBZixDQUFwQjs7QUFFQUMsSUFBSUUsTUFBSixDQUFXLElBQVgsRUFBaUI7QUFBQSxTQUFNQyxRQUFRQyxHQUFSLENBQVksZ0JBQVosQ0FBTjtBQUFBLENBQWpCIiwiZmlsZSI6ImluZGV4LmpzIiwic291cmNlUm9vdCI6Ii9hcHAvc3JjIiwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBzdHJpY3QnXG5cbmNvbnN0IGV4cHJlc3MgPSByZXF1aXJlKCdleHByZXNzJylcbmNvbnN0IGV4cHJlc3NHcmFwaFFMID0gcmVxdWlyZSgnZXhwcmVzcy1ncmFwaHFsJylcblxuXG5jb25zdCBhcHAgPSBleHByZXNzKClcblxuYXBwLnVzZSgnL2dyYXBocWwnLCBleHByZXNzR3JhcGhRTCh7fSkpXG5cbmFwcC5saXN0ZW4oMzAwMCwgKCkgPT4gY29uc29sZS5sb2coJ1NlcnZlciBSdW5uaW5nJykpIl19",
+    "code": "'use strict';\n\nvar express = require('express');\nvar expressGraphQL = require('express-graphql');\n\nvar app = express();\n\napp.use;\n\napp.listen(3000, function () {\n  return console.log('Server Running');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImV4cHJlc3MiLCJyZXF1aXJlIiwiZXhwcmVzc0dyYXBoUUwiLCJhcHAiLCJ1c2UiLCJsaXN0ZW4iLCJjb25zb2xlIiwibG9nIl0sIm1hcHBpbmdzIjoiQUFBQTs7QUFFQSxJQUFNQSxVQUFVQyxRQUFRLFNBQVIsQ0FBaEI7QUFDQSxJQUFNQyxpQkFBaUJELFFBQVEsaUJBQVIsQ0FBdkI7O0FBR0EsSUFBTUUsTUFBTUgsU0FBWjs7QUFFQUcsSUFBSUMsR0FBSjs7QUFFQUQsSUFBSUUsTUFBSixDQUFXLElBQVgsRUFBaUI7QUFBQSxTQUFNQyxRQUFRQyxHQUFSLENBQVksZ0JBQVosQ0FBTjtBQUFBLENBQWpCIiwiZmlsZSI6ImluZGV4LmpzIiwic291cmNlUm9vdCI6Ii9hcHAvc3JjIiwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBzdHJpY3QnXG5cbmNvbnN0IGV4cHJlc3MgPSByZXF1aXJlKCdleHByZXNzJylcbmNvbnN0IGV4cHJlc3NHcmFwaFFMID0gcmVxdWlyZSgnZXhwcmVzcy1ncmFwaHFsJylcblxuXG5jb25zdCBhcHAgPSBleHByZXNzKClcblxuYXBwLnVzZVxuXG5hcHAubGlzdGVuKDMwMDAsICgpID0+IGNvbnNvbGUubG9nKCdTZXJ2ZXIgUnVubmluZycpKSJdfQ==",
     "ast": null,
     "map": {
       "version": 3,
@@ -1127,13 +1127,13 @@
         "console",
         "log"
       ],
-      "mappings": "AAAA;;AAEA,IAAMA,UAAUC,QAAQ,SAAR,CAAhB;AACA,IAAMC,iBAAiBD,QAAQ,iBAAR,CAAvB;;AAGA,IAAME,MAAMH,SAAZ;;AAEAG,IAAIC,GAAJ,CAAQ,UAAR,EAAoBF,eAAe,EAAf,CAApB;;AAEAC,IAAIE,MAAJ,CAAW,IAAX,EAAiB;AAAA,SAAMC,QAAQC,GAAR,CAAY,gBAAZ,CAAN;AAAA,CAAjB",
+      "mappings": "AAAA;;AAEA,IAAMA,UAAUC,QAAQ,SAAR,CAAhB;AACA,IAAMC,iBAAiBD,QAAQ,iBAAR,CAAvB;;AAGA,IAAME,MAAMH,SAAZ;;AAEAG,IAAIC,GAAJ;;AAEAD,IAAIE,MAAJ,CAAW,IAAX,EAAiB;AAAA,SAAMC,QAAQC,GAAR,CAAY,gBAAZ,CAAN;AAAA,CAAjB",
       "file": "index.js",
       "sourceRoot": "/app/src",
       "sourcesContent": [
-        "'use strict'\n\nconst express = require('express')\nconst expressGraphQL = require('express-graphql')\n\n\nconst app = express()\n\napp.use('/graphql', expressGraphQL({}))\n\napp.listen(3000, () => console.log('Server Running'))"
+        "'use strict'\n\nconst express = require('express')\nconst expressGraphQL = require('express-graphql')\n\n\nconst app = express()\n\napp.use\n\napp.listen(3000, () => console.log('Server Running'))"
       ]
     },
-    "mtime": 1598631425000
+    "mtime": 1598631943000
   }
 }
