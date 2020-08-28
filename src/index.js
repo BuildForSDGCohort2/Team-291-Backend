@@ -1,3 +1,5 @@
+'use strict';
+
 // ANCHOR initialize the server and graphql, set routes and port for the server
 const express = require('express');
 const {expressGraphQl} = require('express-graphql');
