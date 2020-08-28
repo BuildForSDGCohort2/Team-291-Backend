@@ -9,8 +9,14 @@ const SignUpSchema = new Schema({
     required: true
   }),
   LastName: ({
-    
-  })
+    type: String,
+    required: true
+  }),
+  
+  LicensePlateNumber: ({
+    type: String,
+    required: true
+  }),
   username: ({
     type: String,
     required: true
