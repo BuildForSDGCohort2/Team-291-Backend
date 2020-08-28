@@ -19,14 +19,12 @@ app.get('/', (req, res) => {
 //set port
 app.set('port', process.env.PORT || 8080);
 // Use express to initalize graphqql
-app.use(
-	'/graphql',
-	expressGraphQl({
+app.use('/graphql', expressGraphQl({
 		schema: Schema,
 		rootValue: root,
 		graphiql: true
 	})
-)
+);
 
 // Listen for the port
 app.listen(app.get('port'), () => {
