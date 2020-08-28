@@ -854,65 +854,10 @@
   },
   "{\"filename\":\"/app/src/index.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/src\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
     "metadata": {
-      "usedHelpers": [
-        "interopRequireDefault"
-      ],
+      "usedHelpers": [],
       "marked": [],
       "modules": {
-        "imports": [
-          {
-            "source": "express",
-            "imported": [
-              "default"
-            ],
-            "specifiers": [
-              {
-                "kind": "named",
-                "imported": "default",
-                "local": "express"
-              }
-            ]
-          },
-          {
-            "source": "express-graphql",
-            "imported": [
-              "default"
-            ],
-            "specifiers": [
-              {
-                "kind": "named",
-                "imported": "default",
-                "local": "expressGraphQl"
-              }
-            ]
-          },
-          {
-            "source": "./schema",
-            "imported": [
-              "default"
-            ],
-            "specifiers": [
-              {
-                "kind": "named",
-                "imported": "default",
-                "local": "Schema"
-              }
-            ]
-          },
-          {
-            "source": "./resolver",
-            "imported": [
-              "default"
-            ],
-            "specifiers": [
-              {
-                "kind": "named",
-                "imported": "default",
-                "local": "root"
-              }
-            ]
-          }
-        ],
+        "imports": [],
         "exports": {
           "exported": [],
           "specifiers": []
@@ -1165,7 +1110,7 @@
       "basename": "index"
     },
     "ignored": false,
-    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _expressGraphql = require('express-graphql');\n\nvar _expressGraphql2 = _interopRequireDefault(_expressGraphql);\n\nvar _schema = require('./schema');\n\nvar _schema2 = _interopRequireDefault(_schema);\n\nvar _resolver = require('./resolver');\n\nvar _resolver2 = _interopRequireDefault(_resolver);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// Initialize Express server\n// ANCHOR initialize the server and graphql, set routes and port for the server\nvar app = (0, _express2.default)();\n\n// Set Routes\napp.get('/', function (req, res) {\n\treturn res.json({\n\t\tmsg: 'Welcome to my GQL World'\n\t});\n});\n\n// Use express to initalize graphqql\napp.use('/graphql', (0, _expressGraphql2.default)({\n\tschema: _schema2.default,\n\trootValue: _resolver2.default,\n\tgraphiql: true\n}));\n\n// Listen for the port\napp.listen(3000);\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImFwcCIsImdldCIsInJlcSIsInJlcyIsImpzb24iLCJtc2ciLCJ1c2UiLCJzY2hlbWEiLCJTY2hlbWEiLCJyb290VmFsdWUiLCJyb290IiwiZ3JhcGhpcWwiLCJsaXN0ZW4iXSwibWFwcGluZ3MiOiI7O0FBQ0E7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7OztBQUVBO0FBTkE7QUFPQSxJQUFNQSxNQUFNLHdCQUFaOztBQUVBO0FBQ0FBLElBQUlDLEdBQUosQ0FBUSxHQUFSLEVBQWEsVUFBQ0MsR0FBRCxFQUFNQyxHQUFOLEVBQWM7QUFDMUIsUUFBT0EsSUFBSUMsSUFBSixDQUFTO0FBQ2ZDLE9BQUs7QUFEVSxFQUFULENBQVA7QUFHQSxDQUpEOztBQU1BO0FBQ0FMLElBQUlNLEdBQUosQ0FDQyxVQURELEVBRUMsOEJBQWU7QUFDZEMsU0FBUUMsZ0JBRE07QUFFZEMsWUFBV0Msa0JBRkc7QUFHZEMsV0FBVTtBQUhJLENBQWYsQ0FGRDs7QUFTQTtBQUNBWCxJQUFJWSxNQUFKLENBQVcsSUFBWCIsImZpbGUiOiJpbmRleC5qcyIsInNvdXJjZVJvb3QiOiIvYXBwL3NyYyIsInNvdXJjZXNDb250ZW50IjpbIi8vIEFOQ0hPUiBpbml0aWFsaXplIHRoZSBzZXJ2ZXIgYW5kIGdyYXBocWwsIHNldCByb3V0ZXMgYW5kIHBvcnQgZm9yIHRoZSBzZXJ2ZXJcbmltcG9ydCBleHByZXNzIGZyb20gJ2V4cHJlc3MnXG5pbXBvcnQgZXhwcmVzc0dyYXBoUWwgZnJvbSAnZXhwcmVzcy1ncmFwaHFsJ1xuaW1wb3J0IFNjaGVtYSBmcm9tICcuL3NjaGVtYSdcbmltcG9ydCByb290IGZyb20gJy4vcmVzb2x2ZXInXG5cbi8vIEluaXRpYWxpemUgRXhwcmVzcyBzZXJ2ZXJcbmNvbnN0IGFwcCA9IGV4cHJlc3MoKVxuXG4vLyBTZXQgUm91dGVzXG5hcHAuZ2V0KCcvJywgKHJlcSwgcmVzKSA9PiB7XG5cdHJldHVybiByZXMuanNvbih7XG5cdFx0bXNnOiAnV2VsY29tZSB0byBteSBHUUwgV29ybGQnXG5cdH0pXG59KVxuXG4vLyBVc2UgZXhwcmVzcyB0byBpbml0YWxpemUgZ3JhcGhxcWxcbmFwcC51c2UoXG5cdCcvZ3JhcGhxbCcsXG5cdGV4cHJlc3NHcmFwaFFsKHtcblx0XHRzY2hlbWE6IFNjaGVtYSxcblx0XHRyb290VmFsdWU6IHJvb3QsXG5cdFx0Z3JhcGhpcWw6IHRydWVcblx0fSlcbilcblxuLy8gTGlzdGVuIGZvciB0aGUgcG9ydFxuYXBwLmxpc3RlbigzMDAwKVxuIl19",
+    "code": "'use strict';\n\nvar express = require('express');\n\nvar app = express();\n\napp.listen(3000, function () {\n  return console.log('Server Running');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImV4cHJlc3MiLCJyZXF1aXJlIiwiYXBwIiwibGlzdGVuIiwiY29uc29sZSIsImxvZyJdLCJtYXBwaW5ncyI6IkFBQUE7O0FBRUEsSUFBTUEsVUFBVUMsUUFBUSxTQUFSLENBQWhCOztBQUVBLElBQU1DLE1BQU1GLFNBQVo7O0FBRUFFLElBQUlDLE1BQUosQ0FBVyxJQUFYLEVBQWlCO0FBQUEsU0FBTUMsUUFBUUMsR0FBUixDQUFZLGdCQUFaLENBQU47QUFBQSxDQUFqQiIsImZpbGUiOiJpbmRleC5qcyIsInNvdXJjZVJvb3QiOiIvYXBwL3NyYyIsInNvdXJjZXNDb250ZW50IjpbIid1c2Ugc3RyaWN0J1xuXG5jb25zdCBleHByZXNzID0gcmVxdWlyZSgnZXhwcmVzcycpXG5cbmNvbnN0IGFwcCA9IGV4cHJlc3MoKVxuXG5hcHAubGlzdGVuKDMwMDAsICgpID0+IGNvbnNvbGUubG9nKCdTZXJ2ZXIgUnVubmluZycpKSJdfQ==",
     "ast": null,
     "map": {
       "version": 3,
@@ -1173,27 +1118,20 @@
         "index.js"
       ],
       "names": [
+        "express",
+        "require",
         "app",
-        "get",
-        "req",
-        "res",
-        "json",
-        "msg",
-        "use",
-        "schema",
-        "Schema",
-        "rootValue",
-        "root",
-        "graphiql",
-        "listen"
+        "listen",
+        "console",
+        "log"
       ],
-      "mappings": ";;AACA;;;;AACA;;;;AACA;;;;AACA;;;;;;AAEA;AANA;AAOA,IAAMA,MAAM,wBAAZ;;AAEA;AACAA,IAAIC,GAAJ,CAAQ,GAAR,EAAa,UAACC,GAAD,EAAMC,GAAN,EAAc;AAC1B,QAAOA,IAAIC,IAAJ,CAAS;AACfC,OAAK;AADU,EAAT,CAAP;AAGA,CAJD;;AAMA;AACAL,IAAIM,GAAJ,CACC,UADD,EAEC,8BAAe;AACdC,SAAQC,gBADM;AAEdC,YAAWC,kBAFG;AAGdC,WAAU;AAHI,CAAf,CAFD;;AASA;AACAX,IAAIY,MAAJ,CAAW,IAAX",
+      "mappings": "AAAA;;AAEA,IAAMA,UAAUC,QAAQ,SAAR,CAAhB;;AAEA,IAAMC,MAAMF,SAAZ;;AAEAE,IAAIC,MAAJ,CAAW,IAAX,EAAiB;AAAA,SAAMC,QAAQC,GAAR,CAAY,gBAAZ,CAAN;AAAA,CAAjB",
       "file": "index.js",
       "sourceRoot": "/app/src",
       "sourcesContent": [
-        "// ANCHOR initialize the server and graphql, set routes and port for the server\nimport express from 'express'\nimport expressGraphQl from 'express-graphql'\nimport Schema from './schema'\nimport root from './resolver'\n\n// Initialize Express server\nconst app = express()\n\n// Set Routes\napp.get('/', (req, res) => {\n\treturn res.json({\n\t\tmsg: 'Welcome to my GQL World'\n\t})\n})\n\n// Use express to initalize graphqql\napp.use(\n\t'/graphql',\n\texpressGraphQl({\n\t\tschema: Schema,\n\t\trootValue: root,\n\t\tgraphiql: true\n\t})\n)\n\n// Listen for the port\napp.listen(3000)\n"
+        "'use strict'\n\nconst express = require('express')\n\nconst app = express()\n\napp.listen(3000, () => console.log('Server Running'))"
       ]
     },
-    "mtime": 1598527880000
+    "mtime": 1598630873000
   }
 }
