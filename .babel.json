@@ -1110,7 +1110,7 @@
       "basename": "index"
     },
     "ignored": false,
-    "code": "'use strict';\n\nvar express = require('express');\n\nvar _require = require('express-graphql'),\n    expressGraphQL = _require.expressGraphQL;\n\nvar app = express();\n\napp.use('/graphql', graphqlHTTP({}));\n\napp.listen(5000, function () {\n  return console.log('Server Running');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImV4cHJlc3MiLCJyZXF1aXJlIiwiZXhwcmVzc0dyYXBoUUwiLCJhcHAiLCJ1c2UiLCJncmFwaHFsSFRUUCIsImxpc3RlbiIsImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiJBQUFBOztBQUVBLElBQU1BLFVBQVVDLFFBQVEsU0FBUixDQUFoQjs7ZUFDeUJBLFFBQVEsaUJBQVIsQztJQUFsQkMsYyxZQUFBQSxjOztBQUdQLElBQU1DLE1BQU1ILFNBQVo7O0FBRUFHLElBQUlDLEdBQUosQ0FBUSxVQUFSLEVBQW9CQyxZQUFZLEVBQVosQ0FBcEI7O0FBRUFGLElBQUlHLE1BQUosQ0FBVyxJQUFYLEVBQWlCO0FBQUEsU0FBTUMsUUFBUUMsR0FBUixDQUFZLGdCQUFaLENBQU47QUFBQSxDQUFqQiIsImZpbGUiOiJpbmRleC5qcyIsInNvdXJjZVJvb3QiOiIvYXBwL3NyYyIsInNvdXJjZXNDb250ZW50IjpbIid1c2Ugc3RyaWN0J1xuXG5jb25zdCBleHByZXNzID0gcmVxdWlyZSgnZXhwcmVzcycpXG5jb25zdCB7ZXhwcmVzc0dyYXBoUUx9ID0gcmVxdWlyZSgnZXhwcmVzcy1ncmFwaHFsJylcblxuXG5jb25zdCBhcHAgPSBleHByZXNzKClcblxuYXBwLnVzZSgnL2dyYXBocWwnLCBncmFwaHFsSFRUUCh7fSkpXG5cbmFwcC5saXN0ZW4oNTAwMCwgKCkgPT4gY29uc29sZS5sb2coJ1NlcnZlciBSdW5uaW5nJykpIl19",
+    "code": "'use strict';\n\nvar express = require('express');\n\nvar _require = require('express-graphql'),\n    graphqlHTTP = _require.graphqlHTTP;\n\nvar app = express();\n\napp.use('/graphql', graphqlHTTP({\n  graphiql: true\n}));\n\napp.listen(5000, function () {\n  return console.log('Server Running');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImV4cHJlc3MiLCJyZXF1aXJlIiwiZ3JhcGhxbEhUVFAiLCJhcHAiLCJ1c2UiLCJncmFwaGlxbCIsImxpc3RlbiIsImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiJBQUFBOztBQUVBLElBQU1BLFVBQVVDLFFBQVEsU0FBUixDQUFoQjs7ZUFDc0JBLFFBQVEsaUJBQVIsQztJQUFmQyxXLFlBQUFBLFc7O0FBR1AsSUFBTUMsTUFBTUgsU0FBWjs7QUFFQUcsSUFBSUMsR0FBSixDQUFRLFVBQVIsRUFBb0JGLFlBQVk7QUFDOUJHLFlBQVU7QUFEb0IsQ0FBWixDQUFwQjs7QUFJQUYsSUFBSUcsTUFBSixDQUFXLElBQVgsRUFBaUI7QUFBQSxTQUFNQyxRQUFRQyxHQUFSLENBQVksZ0JBQVosQ0FBTjtBQUFBLENBQWpCIiwiZmlsZSI6ImluZGV4LmpzIiwic291cmNlUm9vdCI6Ii9hcHAvc3JjIiwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBzdHJpY3QnXG5cbmNvbnN0IGV4cHJlc3MgPSByZXF1aXJlKCdleHByZXNzJylcbmNvbnN0IHtncmFwaHFsSFRUUH0gPSByZXF1aXJlKCdleHByZXNzLWdyYXBocWwnKVxuXG5cbmNvbnN0IGFwcCA9IGV4cHJlc3MoKVxuXG5hcHAudXNlKCcvZ3JhcGhxbCcsIGdyYXBocWxIVFRQKHtcbiAgZ3JhcGhpcWw6IHRydWVcbn0pKVxuXG5hcHAubGlzdGVuKDUwMDAsICgpID0+IGNvbnNvbGUubG9nKCdTZXJ2ZXIgUnVubmluZycpKSJdfQ==",
     "ast": null,
     "map": {
       "version": 3,
@@ -1120,21 +1120,21 @@
       "names": [
         "express",
         "require",
-        "expressGraphQL",
+        "graphqlHTTP",
         "app",
         "use",
-        "graphqlHTTP",
+        "graphiql",
         "listen",
         "console",
         "log"
       ],
-      "mappings": "AAAA;;AAEA,IAAMA,UAAUC,QAAQ,SAAR,CAAhB;;eACyBA,QAAQ,iBAAR,C;IAAlBC,c,YAAAA,c;;AAGP,IAAMC,MAAMH,SAAZ;;AAEAG,IAAIC,GAAJ,CAAQ,UAAR,EAAoBC,YAAY,EAAZ,CAApB;;AAEAF,IAAIG,MAAJ,CAAW,IAAX,EAAiB;AAAA,SAAMC,QAAQC,GAAR,CAAY,gBAAZ,CAAN;AAAA,CAAjB",
+      "mappings": "AAAA;;AAEA,IAAMA,UAAUC,QAAQ,SAAR,CAAhB;;eACsBA,QAAQ,iBAAR,C;IAAfC,W,YAAAA,W;;AAGP,IAAMC,MAAMH,SAAZ;;AAEAG,IAAIC,GAAJ,CAAQ,UAAR,EAAoBF,YAAY;AAC9BG,YAAU;AADoB,CAAZ,CAApB;;AAIAF,IAAIG,MAAJ,CAAW,IAAX,EAAiB;AAAA,SAAMC,QAAQC,GAAR,CAAY,gBAAZ,CAAN;AAAA,CAAjB",
       "file": "index.js",
       "sourceRoot": "/app/src",
       "sourcesContent": [
-        "'use strict'\n\nconst express = require('express')\nconst {expressGraphQL} = require('express-graphql')\n\n\nconst app = express()\n\napp.use('/graphql', graphqlHTTP({}))\n\napp.listen(5000, () => console.log('Server Running'))"
+        "'use strict'\n\nconst express = require('express')\nconst {graphqlHTTP} = require('express-graphql')\n\n\nconst app = express()\n\napp.use('/graphql', graphqlHTTP({\n  graphiql: true\n}))\n\napp.listen(5000, () => console.log('Server Running'))"
       ]
     },
-    "mtime": 1598632756000
+    "mtime": 1598633748000
   }
 }
