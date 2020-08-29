@@ -1110,7 +1110,7 @@
       "basename": "index"
     },
     "ignored": false,
-    "code": "'use strict';\n\nvar express = require('express');\n\nvar _require = require('express-graphql'),\n    graphqlHTTP = _require.graphqlHTTP;\n\nvar app = express();\n\napp.use('/graphql', graphqlHTTP({\n  rootValue: root,\n  schema: schema,\n  graphiql: true\n}));\n\napp.listen(5000, function () {\n  return console.log('Server Running');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImV4cHJlc3MiLCJyZXF1aXJlIiwiZ3JhcGhxbEhUVFAiLCJhcHAiLCJ1c2UiLCJyb290VmFsdWUiLCJyb290Iiwic2NoZW1hIiwiZ3JhcGhpcWwiLCJsaXN0ZW4iLCJjb25zb2xlIiwibG9nIl0sIm1hcHBpbmdzIjoiQUFBQTs7QUFFQSxJQUFNQSxVQUFVQyxRQUFRLFNBQVIsQ0FBaEI7O2VBQ3NCQSxRQUFRLGlCQUFSLEM7SUFBZkMsVyxZQUFBQSxXOztBQUdQLElBQU1DLE1BQU1ILFNBQVo7O0FBRUFHLElBQUlDLEdBQUosQ0FBUSxVQUFSLEVBQW9CRixZQUFZO0FBQzlCRyxhQUFXQyxJQURtQjtBQUU5QkMsVUFBUUEsTUFGc0I7QUFHOUJDLFlBQVU7QUFIb0IsQ0FBWixDQUFwQjs7QUFNQUwsSUFBSU0sTUFBSixDQUFXLElBQVgsRUFBaUI7QUFBQSxTQUFNQyxRQUFRQyxHQUFSLENBQVksZ0JBQVosQ0FBTjtBQUFBLENBQWpCIiwiZmlsZSI6ImluZGV4LmpzIiwic291cmNlUm9vdCI6Ii9hcHAvc3JjIiwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBzdHJpY3QnXG5cbmNvbnN0IGV4cHJlc3MgPSByZXF1aXJlKCdleHByZXNzJylcbmNvbnN0IHtncmFwaHFsSFRUUH0gPSByZXF1aXJlKCdleHByZXNzLWdyYXBocWwnKVxuXG5cbmNvbnN0IGFwcCA9IGV4cHJlc3MoKVxuXG5hcHAudXNlKCcvZ3JhcGhxbCcsIGdyYXBocWxIVFRQKHtcbiAgcm9vdFZhbHVlOiByb290LFxuICBzY2hlbWE6IHNjaGVtYSxcbiAgZ3JhcGhpcWw6IHRydWVcbn0pKVxuXG5hcHAubGlzdGVuKDUwMDAsICgpID0+IGNvbnNvbGUubG9nKCdTZXJ2ZXIgUnVubmluZycpKSJdfQ==",
+    "code": "'use strict';\n\nvar express = require('express');\n\nvar _require = require('express-graphql'),\n    graphqlHTTP = _require.graphqlHTTP;\n\nvar mongoose = require('mongoose');\n\nvar app = express();\n\napp.use('/graphql', graphqlHTTP({\n  rootValue: root,\n  graphiql: true\n}));\n\napp.listen(5000, function () {\n  return console.log('Server Running');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImV4cHJlc3MiLCJyZXF1aXJlIiwiZ3JhcGhxbEhUVFAiLCJtb25nb29zZSIsImFwcCIsInVzZSIsInJvb3RWYWx1ZSIsInJvb3QiLCJncmFwaGlxbCIsImxpc3RlbiIsImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiJBQUFBOztBQUVBLElBQU1BLFVBQVVDLFFBQVEsU0FBUixDQUFoQjs7ZUFDc0JBLFFBQVEsaUJBQVIsQztJQUFmQyxXLFlBQUFBLFc7O0FBQ1AsSUFBTUMsV0FBV0YsUUFBUSxVQUFSLENBQWpCOztBQUdBLElBQU1HLE1BQU1KLFNBQVo7O0FBRUFJLElBQUlDLEdBQUosQ0FBUSxVQUFSLEVBQW9CSCxZQUFZO0FBQzlCSSxhQUFXQyxJQURtQjtBQUU5QkMsWUFBVTtBQUZvQixDQUFaLENBQXBCOztBQUtBSixJQUFJSyxNQUFKLENBQVcsSUFBWCxFQUFpQjtBQUFBLFNBQU1DLFFBQVFDLEdBQVIsQ0FBWSxnQkFBWixDQUFOO0FBQUEsQ0FBakIiLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiL2FwcC9zcmMiLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIHN0cmljdCdcblxuY29uc3QgZXhwcmVzcyA9IHJlcXVpcmUoJ2V4cHJlc3MnKVxuY29uc3Qge2dyYXBocWxIVFRQfSA9IHJlcXVpcmUoJ2V4cHJlc3MtZ3JhcGhxbCcpXG5jb25zdCBtb25nb29zZSA9IHJlcXVpcmUoJ21vbmdvb3NlJylcblxuXG5jb25zdCBhcHAgPSBleHByZXNzKClcblxuYXBwLnVzZSgnL2dyYXBocWwnLCBncmFwaHFsSFRUUCh7XG4gIHJvb3RWYWx1ZTogcm9vdCxcbiAgZ3JhcGhpcWw6IHRydWVcbn0pKVxuXG5hcHAubGlzdGVuKDUwMDAsICgpID0+IGNvbnNvbGUubG9nKCdTZXJ2ZXIgUnVubmluZycpKSJdfQ==",
     "ast": null,
     "map": {
       "version": 3,
@@ -1121,23 +1121,23 @@
         "express",
         "require",
         "graphqlHTTP",
+        "mongoose",
         "app",
         "use",
         "rootValue",
         "root",
-        "schema",
         "graphiql",
         "listen",
         "console",
         "log"
       ],
-      "mappings": "AAAA;;AAEA,IAAMA,UAAUC,QAAQ,SAAR,CAAhB;;eACsBA,QAAQ,iBAAR,C;IAAfC,W,YAAAA,W;;AAGP,IAAMC,MAAMH,SAAZ;;AAEAG,IAAIC,GAAJ,CAAQ,UAAR,EAAoBF,YAAY;AAC9BG,aAAWC,IADmB;AAE9BC,UAAQA,MAFsB;AAG9BC,YAAU;AAHoB,CAAZ,CAApB;;AAMAL,IAAIM,MAAJ,CAAW,IAAX,EAAiB;AAAA,SAAMC,QAAQC,GAAR,CAAY,gBAAZ,CAAN;AAAA,CAAjB",
+      "mappings": "AAAA;;AAEA,IAAMA,UAAUC,QAAQ,SAAR,CAAhB;;eACsBA,QAAQ,iBAAR,C;IAAfC,W,YAAAA,W;;AACP,IAAMC,WAAWF,QAAQ,UAAR,CAAjB;;AAGA,IAAMG,MAAMJ,SAAZ;;AAEAI,IAAIC,GAAJ,CAAQ,UAAR,EAAoBH,YAAY;AAC9BI,aAAWC,IADmB;AAE9BC,YAAU;AAFoB,CAAZ,CAApB;;AAKAJ,IAAIK,MAAJ,CAAW,IAAX,EAAiB;AAAA,SAAMC,QAAQC,GAAR,CAAY,gBAAZ,CAAN;AAAA,CAAjB",
       "file": "index.js",
       "sourceRoot": "/app/src",
       "sourcesContent": [
-        "'use strict'\n\nconst express = require('express')\nconst {graphqlHTTP} = require('express-graphql')\n\n\nconst app = express()\n\napp.use('/graphql', graphqlHTTP({\n  rootValue: root,\n  schema: schema,\n  graphiql: true\n}))\n\napp.listen(5000, () => console.log('Server Running'))"
+        "'use strict'\n\nconst express = require('express')\nconst {graphqlHTTP} = require('express-graphql')\nconst mongoose = require('mongoose')\n\n\nconst app = express()\n\napp.use('/graphql', graphqlHTTP({\n  rootValue: root,\n  graphiql: true\n}))\n\napp.listen(5000, () => console.log('Server Running'))"
       ]
     },
-    "mtime": 1598635739000
+    "mtime": 1598635835000
   }
 }
