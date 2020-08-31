@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0f431f9d67854c3ea59f3010d7f7b383)](https://app.codacy.com/gh/BuildForSDGCohort2/Team-291-Backend?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDGCohort2/Team-291-Backend&utm_campaign=Badge_Grade_Settings)",
   "main": "server.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dru-Go/Team-291-Backend.git"
@@ -16,8 +15,6 @@
     "url": "https://github.com/Dru-Go/Team-291-Backend/issues"
   },
   "homepage": "https://github.com/Dru-Go/Team-291-Backend#readme",
-  "devDependencies": {
-  },
-  "dependencies": {
-  }
+  "devDependencies": {},
+  "dependencies": {}
 }
