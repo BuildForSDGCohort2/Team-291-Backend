@@ -16,7 +16,7 @@ module.exports = buildSchema(`
                 _id: ID!
                 email: String!
                 password: String
-                phoneNumber: Float!
+                phoneNumber: Int!
                 createdBreakdowns:[BreakDown!]
                 
             }
