@@ -1,6 +1,5 @@
-// ANCHOR this will return all mechanics
-import Mechanic from '../../models/Mechanic';
-
-export default function mechanics () {
-    return Mechanic.find().catch((error) => console.log(error));
+// ANCHOR this will return mechanics
+import { Mechanic } from '../../models';
+export async function mechanics () {
+    return await Mechanic.find().catch((error) => console.log(error));
 }
